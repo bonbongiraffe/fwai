@@ -7,7 +7,7 @@
             "location":"Boston, MA",
             "description":"",
             "time":"Jan 2019 - Present",
-            "image":""
+            "image":"neu_logo.png"
         },
         {
             "id":2,
@@ -16,7 +16,7 @@
             "location":"Summit, NJ",
             "description":"",
             "time":"Jun 2022 - Apr 2023",
-            "image":""
+            "image":"hmps_logo.jpg"
         }
     ],
     "projects":[
@@ -27,7 +27,7 @@
             "technologies":"",
             "github":"https://github.com/bonbongiraffe/flatiron_airlines",
             "youtube":"https://www.youtube.com/watch?v=zAUHVQVSzaQ",
-            "image":""
+            "image":"flatlines_logo.png"
         },
         {
             "id":2,
@@ -36,7 +36,7 @@
             "technologies":"",
             "github":"https://github.com/bonbongiraffe/mytrails",
             "youtube":"https://www.youtube.com/watch?v=FFhkqT3TMcw",
-            "image":""
+            "image":"mytrails_logo.ico"
         }
     ],
     "education": [    
@@ -45,7 +45,7 @@
             "name":"Northeastern University",
             "time":"Sep 2015 - May 2020",
             "program":"B.S. Chemical Engineering\nB.S. Philosophy",
-            "image":"neu_crest.png"
+            "image":"neu_logo.png"
         },
         {
             "id":2,
