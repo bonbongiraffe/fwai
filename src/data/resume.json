@@ -1,6 +1,7 @@
 {
     "experience":[
         {
+            "id":1,
             "company":"Northeastern University",
             "title":"Logic Teaching Assistant",
             "location":"Boston, MA",
@@ -9,6 +10,7 @@
             "image":""
         },
         {
+            "id":2,
             "company":"Hosokawa Micron Powder Systems",
             "title":"Test Engineer",
             "location":"Summit, NJ",
@@ -19,6 +21,7 @@
     ],
     "projects":[
         {
+            "id":1,
             "name":"Flatiron Airlines",
             "description":"Airline reservation website, with flight search via origin, destination, one-way, round-trip options, interactive seat selection chart, and boarding pass export as .pdf with working qr-code",
             "technologies":"",
@@ -27,6 +30,7 @@
             "image":""
         },
         {
+            "id":2,
             "name":"My Trails",
             "description":"Hiking social media site, with trail search from national parks, hike post and trail review form, and socials page",
             "technologies":"",
@@ -37,12 +41,14 @@
     ],
     "education": [    
         {
+            "id":1,
             "name":"Northeastern University",
             "time":"Sep 2015 - May 2020",
             "program":"B.S. Chemical Engineering\nB.S. Philosophy",
             "image":"neu_crest.png"
         },
         {
+            "id":2,
             "name":"Flatiron School",
             "time":"May 2023 - Sep 2023",
             "program":"Software Engineering - Full Stack Web Development",

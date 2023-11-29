@@ -1,10 +1,9 @@
 import NavBar from './NavBar';
-import photo1 from '../assets/img-01.JPG'
 
 function Home(){
     return (
         <div className='flex'>
-            <img src={photo1} alt='photo 1' className='h-1/4 w-1/4'/>
+            <img src={process.env.PUBLIC_URL + '/assets/img-01.JPG'} alt='photo 1' className='h-1/4 w-1/4'/>
             <div>
                 <h1 className="text-3xl font-bold">
                     Francesco Wai
