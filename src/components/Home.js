@@ -1,14 +1,22 @@
+import NavBar from './NavBar';
+import photo1 from '../assets/img-01.JPG'
+
 function Home(){
     return (
-        <div>
-            <ul>
-                <li>Information Technology Professional</li>
-                <li>Software Engineer at Large</li>
-                <li>Etc.</li>
-            </ul>
-            <div className='container mx-auto'>
+        <div className='flex'>
+            <img src={photo1} alt='photo 1' className='h-1/4 w-1/4'/>
+            <div>
+                <h1 className="text-3xl font-bold">
+                    Francesco Wai
+                </h1>
                 <ul>
-                    <li>
+                    <li>Information Technology Professional</li>
+                    <li>Software Engineer at Large</li>
+                    <li>Etc.</li>
+                </ul>
+                <NavBar/>
+                <ul className='container mx-auto flex flex-row'>
+                    <li className='basis-1/3'>
                         <a href='https://www.linkedin.com/in/francescowai/'>
                             <span className='sr-only'>LinkedIn</span>
                             <svg className='h-6 w-6' xmlns='https://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' aria-hidden='true'>
@@ -16,7 +24,7 @@ function Home(){
                             </svg>
                         </a>
                     </li>
-                    <li>
+                    <li className='basis-1/3'>
                         <a href='https://github.com/bonbongiraffe'>
                             <span className='sr-only'>GitHub</span>
                             <svg className='h-6 w-6' xmlns='https://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='currentColor' aria-hidden='true'>
@@ -24,7 +32,7 @@ function Home(){
                             </svg>
                         </a>
                     </li>
-                    <li>
+                    <li className='basis-1/3'>
                         <a href='https://drive.google.com/file/d/149yaqkFjO2P507j_SrAKw38QQGMt2Fh7/view?usp=sharing'>
                             <span className='sr-only'>Resume</span>
                             {/* <svg className='h-6 w-6' xmlns='https://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='currentColor' aria-hidden='true'> */}
