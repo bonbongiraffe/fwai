@@ -1,10 +1,11 @@
 function NavBar(){
     return (
-        <div>
+        <div className='p-4'>
+            <p>Resume</p>
             <ul>
-                <li>About</li>
-                <li>Experience</li>
-                <li>Projects</li>
+                <li>-Experience</li>
+                <li>-Projects</li>
+                <li>-Education</li>
             </ul>
         </div>
     )
