@@ -6,9 +6,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Home/>
-      <Resume/>
+    <div className="h-screen flex">
+        <Home/>
+        <Resume/>
     </div>
   );
 }
