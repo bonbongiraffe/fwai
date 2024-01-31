@@ -1,6 +1,7 @@
 function NavBar(){
     return (
         <div className='p-4'>
+            <p>About</p>
             <p>Resume</p>
             <ul>
                 <li>-Experience</li>
