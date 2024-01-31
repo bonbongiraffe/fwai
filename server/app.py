@@ -18,9 +18,9 @@ def send_email():
         message = data.get('message','')
 
         #configure email server and credentials
-        smtp_server = 'smtp.mail.yahoo.com'
+        smtp_server = 
         smtp_port = 465
-        smtp_username = 'francescowai@yahoo.com'
+        smtp_username = 
         smtp_password = ''
 
         #create MIMEText object for email
