@@ -4,6 +4,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import os
+import ssl
 from dotenv import load_dotenv
 
 app = Flask(__name__)
@@ -36,9 +37,7 @@ def send_email():
         server.set_debuglevel(1)
 
         #login to smtp server
-        server.login(smtp_username, smtp_password)
-
-        return make_response({'test':'good!'},200)
+        server.login(smtp_username, smtp_password)   
 
         #send the email
         server.sendmail(smtp_username, email_destination, msg.as_string())
