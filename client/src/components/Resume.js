@@ -13,7 +13,7 @@ function Resume(){
     const projectCards = projectData.map((p) => <ProjectCard project={p} key={p.id}/>)
 
     return(
-        <div className="flex-1 p-4 overflow-y-auto">
+        <div>
             <h1 className="text-2xl font-bold">Experience</h1>
             {experienceCards}
             <h1 className="text-2xl font-bold">Projects</h1>
