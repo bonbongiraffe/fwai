@@ -16,7 +16,7 @@ function MessageForm(){
 
     return(
         <div>
-            <h1 onClick={()=>setShowForm(!showForm)}>Drop me a line!</h1>
+            <h1 onClick={()=>setShowForm(!showForm)} className="hover:underline">Drop me a line!</h1>
             {showForm? 
             <form onSubmit={handleSubmit}>
                 <div>

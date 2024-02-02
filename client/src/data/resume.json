@@ -51,17 +51,17 @@
     "education": [    
         {
             "id":1,
-            "name":"Northeastern University",
-            "time":"Sep 2015 - May 2020",
-            "program":"B.S. Chemical Engineering | B.S. Philosophy",
-            "image":"neu_logo.png"
-        },
-        {
-            "id":2,
             "name":"Flatiron School",
             "time":"May 2023 - Sep 2023",
             "program":"Software Engineering, Full Stack Web Development",
             "image":"fis_logo.png"
+        },
+        {
+            "id":2,
+            "name":"Northeastern University",
+            "time":"Sep 2015 - May 2020",
+            "program":"B.S. Chemical Engineering | B.S. Philosophy",
+            "image":"neu_logo.png"
         }
     ]
 }
