@@ -2,7 +2,7 @@ import { useState } from "react"
 
 function MessageForm(){
     const [formData, setFormData] = useState({name:"",email:"",message:""})
-    const [showForm, setShowForm] = useState(false)
+    // const [showForm, setShowForm] = useState(false)
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -16,8 +16,7 @@ function MessageForm(){
 
     return(
         <div>
-            <h1 onClick={()=>setShowForm(!showForm)} className="hover:underline">Drop me a line!</h1>
-            {showForm? 
+            {/* <h1 onClick={()=>setShowForm(!showForm)} className="hover:underline">Drop me a line!</h1> */}
             <form onSubmit={handleSubmit}>
                 <div>
                     <label className="block" htmlFor="name">Name</label>
@@ -54,8 +53,6 @@ function MessageForm(){
                 </div>
                 <button type="submit" className="shadow bg-white hover:bg-gray-100">Send</button>
             </form> 
-            :
-            null}
         </div>
     )
 }
